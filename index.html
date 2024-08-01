@@ -1,124 +1,214 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portal de notícias</title>
-    <link rel="stylesheet" href="./main.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexus Científico News</title>
+
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
     <header>
-        <h1>Meu portal de notícias</h1>
+    <div class="header-container">
+        <div class="logo">
+        <div class="shape-forms">
+            <div class="shape n1"></div>
+            <div class="shape n2"></div>
+            <div class="shape circle">
+            <span class="first-letter-1">N</span>
+            <span class="first-letter-2">C</span>
+            </div>
+            <div class="shape n3"></div>
+            <div class="shape n4"></div>
+        </div>
+        <div class="name">
+            <h1 class="part-1">Nexus</h1>
+            <h1 class="part-2">Científico</h1>
+        </div>
+        </div>
         <nav>
-            <ul>
-                <li>
-                    <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
-                </li>
-                <li>
-                    <a href="#economy" title="Ir para a seção de notícias">Economia</a>
-                </li>
-            </ul>
+        <ul>
+            <li>
+            <a href="#sports" title="Ir para a seção de esportes">Tecnologia</a>
+            </li>
+            <li>
+            <a href="#economy" title="Ir para a seção de notícias">Ciências Exatas</a>
+            </li>
+            <li>
+            <a href="#medicine" title="Ir para a seção de notícias">Medicina</a>
+            </li>
+            <li>
+            <a href="#research" title="Ir para a seção de notícias">Pesquisas Científicas</a>
+            </li>
+        </ul>
         </nav>
+    </div>
     </header>
-    <section>
-        <h2>Esportes</h2>
-        <article>
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Grande clássico na noite de hoje</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                <img src="futebol.jpg" alt="Bola de futebol no gramado">
+    <main>
+    <section class="technology">
+        <div class="bg-technology-section"></div>
+        <div class="container">
+        <h2>Tecnologia</h2>
+        <div class="grid-news">
+            <div class="main-news">
+            <h3>IAs são melhores do que humanos para detectar mentiras, revela artigo científico</h3>
+            <img class="image-news" src="https://tm.ibxk.com.br/2024/07/11/11145725963232.jpeg?ims=1280x480" alt="Imagem notícia IA detecta mentiras" />
+            <div class="info-writer">
+                <div class="container-photo">
+                <img src="https://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg" alt="Foto do escritor" />
+                </div>
+                <h4>Igor Almenara Carneiro, <time datetime="2024-07-11">11/07/2024</time></h4>
+            </div>
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cum doloremque, itaque amet vel iste rerum odio voluptas temporibus sequi non id esse veritatis, porro repellendus, eum earum dicta perferendis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur commodi, officia minus ratione fugit suscipit dolores natus ut. Vitae voluptatum nihil voluptas labore, incidunt dolorum optio aliquid assumenda recusandae libero! Itaque dignissimos labore sequi magni reprehenderit tenetur quasi quibusdam quisquam repellendus iusto, laudantium placeat et molestiae? Illo neque cum nesciunt numquam.
             </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Noite do Superbowl</h3>
-            <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            <img src="futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão">
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-        </article>
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Notícia sobre a NBA</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                <img src="basquete.jpg" alt="Quadra de basquete">
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-            <header>
-                <time>13/07/2022 às 12:35</time>
-        </article>
+            </div>
+            <div class="other-news">
+            <div class="news">
+                <h3>Nova patente da Microsoft borra parte da tela para evitar bisbilhoteiros</h3>
+                <h4><time datetime="2024-07-08">08/07/2024</time></h4>
+            </div>
+            <div class="news">
+                <h3>Pix por aproximação: nova tecnologia será lançada em fevereiro de 2025</h3>
+                <h4><time datetime="2024-07-04">04/07/2024</time></h4>
+            </div>
+            <div class="news">
+                <h3>Starlink vira líder entre operadoras de internet via satélite no Brasil</h3>
+                <h4><time datetime="2024-07-03">03/07/2024</time></h4>
+            </div>
+            <div class="news">
+                <h3>5 tecnologias e inovações que ajudam nas iniciativas Carbono Zero</h3>
+                <h4><time datetime="2024-06-01">01/06/2024</time></h4>
+            </div>
+            </div>
+        </div>
+        </div>
     </section>
-    <section>
-        <h2>Economia</h2>
-        <article>
-            <header>
-            </header>
-            <h3>Dólar em alta de 0.50%</h3>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            <img src="dolares.jpg" alt="Varias notas de dólar">
+    <section class="exact-sciences">
+        <div class="bg-exact-sciences-section"></div>
+        <div class="container">
+        <h2>Ciências Exatas</h2>
+        <div class="grid-news">
+            <div class="main-news">
+            <h3>Não apenas um: computador quântico mais eficiente prevê uso de múltiplos processadores</h3>
+            <img class="image-news" src="https://jornal.usp.br/wp-content/uploads/2024/07/20240710_multi-qpu.jpg" alt="Imagem notícia computador quântico" />
+            <div class="info-writer">
+                <div class="container-photo">
+                <img src="https://icon-library.com/images/female-user-icon/female-user-icon-8.jpg" alt="Foto da escritora" />
+                </div>
+                <h4>Júlia Bernardes Campos Dias, <time datetime="2024-07-10">10/07/2024</time></h4>
+            </div>
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet quo ad in suscipit? Sunt in ex enim amet, doloribus dolor voluptatem laudantium modi culpa pariatur molestiae! Sint, minus quae! Reiciendis autem architecto earum doloremque excepturi delectus dolore itaque fugiat impedit id! Ad, aspernatur consequatur provident aliquid totam perferendis et ducimus iste at corrupti quod ratione consequuntur incidunt in excepturi! Eum atque unde dolore quos. Aliquid unde eligendi omnis nemo laboriosam laudantium? Ut ipsam doloremque quidem voluptate odit adipisci amet corrupti hic, temporibus, accusamus cumque laudantium assumenda cupiditate id beatae. Saepe cupiditate incidunt suscipit hic blanditiis deleniti laudantium accusamus neque consequatur vero in, cum temporibus provident quisquam sunt tempora voluptatibus nesciunt quos! Dolore et cupiditate explicabo quas veritatis aut iure.
             </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Euro em queda de 0.40%</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                <img src="euro.jpg" alt="Varias notas de euro">
+            </div>
+            <div class="other-news">
+            <div class="news">
+                <h3>Buraco negro adormecido descoberto na Via Láctea tem massa 33 vezes maior que o Sol</h3>
+                <h4><time datetime="2024-04-17">17/04/2024</time></h4>
+            </div>
+            <div class="news">
+                <h3>Ecologia e matemática se juntam para medir importância de morcegos na reprodução de plantas</h3>
+                <h4><time datetime="2024-03-26">26/03/2024</time></h4>
+            </div>
+            <div class="news">
+                <h3>Decifrando os papiros carbonizados pelo vulcão Vesúvio com inteligência artificial</h3>
+                <h4><time datetime="2024-03-01">01/03/2024</time></h4>
+            </div>
+            <div class="news">
+                <h3>O problema matemático que intrigava Napoleão e que se aplica em IA e no carreto da sua mudança</h3>
+                <h4><time datetime="2024-01-01">01/01/2024</time></h4>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="medicine">
+        <div class="bg-medicine-section"></div>
+        <div class="container">
+        <h2>Medicina</h2>
+        <div class="grid-news">
+            <div class="main-news">
+            <h3>Os misteriosos desertos de
+
+DNA que cientistas associam a doenças como câncer e Crohn</h3>
+            <img class="image-news" src="https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/cc9c/live/9146aad0-3fdb-11ef-96a8-e710c6bfc866.jpg.webp" alt="Imagem notícia desertos de DNA" />
+            <div class="info-writer">
+                <div class="container-photo">
+                <img src="https://www.flycart.org/wp-content/uploads/2023/02/Customer-reviews.png" alt="Foto do escritor" />
+                </div>
+                <h4>David Cox, <time datetime="2024-07-15">15/07/2024</time></h4>
+            </div>
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sint, fuga quam perspiciatis sunt, corporis dolore placeat, aliquid velit cupiditate ex? Sed inventore labore asperiores veritatis rerum totam enim perspiciatis. Atque voluptatibus totam, et sequi quasi error ea ex minima illum deleniti nesciunt perspiciatis voluptates praesentium. Suscipit iure, dignissimos asperiores laboriosam aspernatur ut nulla sint consectetur beatae adipisci. Nihil, error. Asperiores praesentium deleniti distinctio eaque quo, optio doloremque maxime, nisi cum ab molestiae! Eius ipsum, vitae explicabo doloribus ratione illo rerum commodi, debitis in numquam recusandae consequatur id saepe quos.
             </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Alta no preço do barril do petróleo</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                <img src="petroleo.jpg" alt="Extração de pretóleo">
+            </div>
+            <div class="other-news">
+            <div class="news">
+                <h3>Como podemos retardar o envelhecimento do nosso cérebro, segundo cientistas</h3>
+                <h4><time datetime="2024-07-11">11/07/2024</time></h4>
+            </div>
+            <div class="news">
+                <h3>Ozempic e Wegovy são ligados a raros (e graves) problemas na visão, diz estudo</h4><time datetime="2024-07-05">05/07/2024</time></div></h4>
+            </div>
+            <div class="news">
+                <h3>152 milhões de vidas salvas em 50 anos: 4 gráficos que mostram o sucesso das vacinas no mundo</h3>
+                <h4><time datetime="2024-06-30">30/06/2024</time></h4>
+            </div>
+            <div class="news">
+                <h3>Chimpanzés se 'curam' com plantas medicinais, diz pesquisa</h3>
+                <h4><time datetime="2024-06-21">21/06/2024</time></h4>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="scientific-researches">
+        <div class="bg-scientific-researches-section"></div>
+        <div class="container">
+        <h2>Pesquisas Científicas</h2>
+        <div class="grid-news">
+            <div class="main-news">
+            <h3>Telescópio James Webb revela clima rigoroso em anãs marrons, com nuvens a até 925°C</h3>
+            <img class="image-news" src="https://f.i.uol.com.br/fotografia/2024/07/15/17210785406695930cbb5d6_1721078540_3x2_md.jpg" alt="Imagem notícia James Webb" />
+            <div class="info-writer">
+                <div class="container-photo">
+                <img src="https://ceacopiniones.es/wp-content/uploads/2019/03/user-8.png" alt="Foto da escritora" />
+                </div>
+                <h4>Amanda Santana Caixeta, <time datetime="2024-07-15">15/07/2024</time></h4>
+            </div>
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, natus autem ad fuga cupiditate veritatis doloremque, nesciunt, ducimus necessitatibus velit sint accusantium pariatur? Delectus dolor deleniti quis porro eaque autem? Non amet impedit minus sequi. Tenetur quisquam, adipisci minima pariatur aliquid perspiciatis molestiae nulla voluptates recusandae facilis quis vel, asperiores neque labore doloremque laboriosam sint aperiam saepe maiores optio? Numquam?
             </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <header>
-            <time>13/07/2022 às 12:35</time>
-        </header>
-        <h2>Entretenimento</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            <img src="OIP.jpg" alt="Show de entreterimento"
-        width="640px" height="380"/>
-        </p>
-        <a href="#" title="Leia a notícia completa">Ler mais</a>
-    </article>
-    <header>
-        <time>12/07/2024 às 12:35</time>
-    </header>
-    <h3>Tecnologia</h3>
+            </div>
+            <div class="other-news">
+            <div class="news">
+                <h3>A caverna descoberta na Lua que poderia abrigar humanos</h3>
+                <h4><time datetime="2024-07-15">15/07/2024</time></h4>
+            </div>
+            <div class="news">
+                <h3>Fóssil de dinossauro que estava enterrado em penhasco pertence a espécie inédita</h3>
+                <h4><time datetime="2024-07-12">12/07/2024</time></h4>
+            </div>
+            <div class="news">
+                <h3>Cientistas batizam vespas parasitas com os nomes de Roger Federer e Rafael Nadal</h3>
+                <h4><time datetime="2024-07-11">11/07/2024</time></h4>
+            </div>
+            <div class="news">
+                <h3>Cientistas fazem mapa de cidade perdida que foi submersa no século 14</h3>
+                <h4><time datetime="2024-07-08">08/07/2024</time></h4>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    </main>
+    <footer>
     <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-        <img src="tecnologia.jpeg" alt="As multifunções da tecnologia"
-        width="640px" />
-        </p>
-    
-        <header>
-    <a href="#" title="Leia a notícia completa">Ler mais</a>
-    <header></header>
-    <time>12/07/2024 às 12:35</time>
-</article>
-    </section>
+        &copy; Nexus Científico, <em>inteligência ao quadrado! Sua jornada pelo conhecimento a todo instante</em>...
+    </p>
+    </footer>
 </body>
 </html>
